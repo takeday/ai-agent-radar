@@ -6,7 +6,10 @@ Claude Code / AI エージェント関連の動向を毎日自動収集し、日
 
 ## 収集しているもの
 
-[last30days](https://github.com/mvanhorn/last30days-skill) スキルで「Claude Code agent skills」を
+<!--
+[last30days](https://github.com/mvanhorn/last30days-skill) スキルで
+-->
+「Claude Code agent skills」を
 **X (旧Twitter) / Reddit / Hacker News / YouTube / GitHub / Web** から直近14日分検索し、
 あわせて GitHub Search API で新規・更新リポジトリ
 (`topic:claude-skill` / `topic:agent-skills` / `topic:claude-code`、および直近30日以内に作成されたもの)
