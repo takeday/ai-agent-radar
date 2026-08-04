@@ -2,27 +2,27 @@
 
 Claude Code / AI エージェント関連の動向を毎日自動収集し、日本語ダイジェストにまとめたものです。
 
-**最新: [2026-08-04](reports/20260804.md)**
+**最新: [2026-08-05](reports/20260805.md)**
 
 ## 収集しているもの
 
-<!--
-[last30days](https://github.com/mvanhorn/last30days-skill) スキルで
--->
-「Claude Code agent skills」を
+[last30days](https://github.com/mvanhorn/last30days-skill) スキルで「Claude Code agent skills」と
+「AIコードレビュー / コーディング規約の自動執行」の2トピックを
 **X (旧Twitter) / Reddit / Hacker News / YouTube / GitHub / Web** から直近14日分検索し、
 あわせて GitHub Search API で新規・更新リポジトリ
-(`topic:claude-skill` / `topic:agent-skills` / `topic:claude-code`、および直近30日以内に作成されたもの)
+(`topic:claude-skill` / `topic:agent-skills` / `topic:claude-code` / `topic:ai-code-review` / `topic:code-review`、および直近30日以内に作成されたもの)
 を取得しています。
 
-レポートは3セクション構成です。
+レポートは4セクション構成です。
 
 - **ニュース・トレンド** — 上記ソースで話題になった投稿・動画・記事。システム開発(実装、開発者ツール、インフラ、テスト、CI/CD、エージェント・MCP フレームワークなど)に関わるものを対象とし、各項目に日本語の要約を付けています
+- **AIコードレビュー・コーディング規約** — Greptile / CodeRabbit / Qodo などの AI コードレビュー製品と、AGENTS.md のような自然言語ルール・lint・CI による規約の自動執行に関する動向。製品比較やバグ検出率のベンチマーク、導入事例、AIレビューと人間レビューの役割分担など
 - **新規・トレンド GitHub リポジトリ** — (1) プログラミング(言語・フレームワークの実装支援、コード生成/レビュー、Web の UI・デザイン実装) (2) クラウドインフラ構築と運用(IaC、CI/CD、監視) (3) AI駆動開発の方法論(スペック駆動開発、マルチエージェント設計、コンテキストエンジニアリングなど) の3分野に該当するものだけを掲載。スキル配布・管理ツール、メモ/知識管理、学習教材、画像・資料生成などは除外しています
 - **コミュニティの主要コメント** — Reddit スレッドで反応の大きかったコメント(upvote 順)の翻訳
 
 ## レポート一覧
 
+- [2026-08-05](reports/20260805.md)
 - [2026-08-04](reports/20260804.md)
 - [2026-08-03](reports/20260803.md)
 - [2026-08-02](reports/20260802.md)
