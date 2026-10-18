@@ -1,29 +1,39 @@
 # AI Agent Radar
 
-Claude Code / AI エージェント関連の動向を毎日自動収集し、日本語ダイジェストにまとめたものです。
+Claude Code / Codex / ローカルLLM など AI エージェント関連の動向を毎日自動収集し、日本語ダイジェストにまとめたものです。
 
-**最新: [2026-10-15](reports/20261015.md)**
+**最新: [2026-10-18](reports/20261018.md)**
 
 ## 収集しているもの
 <!--
 [last30days](https://github.com/mvanhorn/last30days-skill) スキルで
 -->
-「Claude Code agent skills」と
-「AIコードレビュー / コーディング規約の自動執行」の2トピックを
-**X (旧Twitter) / Reddit / Hacker News / YouTube / GitHub / Web** から直近14日分検索し、
+次の5トピックを **X (旧Twitter) / Reddit / Hacker News / YouTube / GitHub / Web** から直近14日分検索しています(トピックごとに別々に検索)。
+
+1. Claude Code と OpenAI Codex の併用事例・テクニック
+2. OpenAI Codex の実践的な知見
+3. ローカルLLMの活用事例・テクニック(企業・個人)
+4. Claude Code agent skills
+5. AIコードレビュー / コーディング規約の自動執行
+
 あわせて GitHub Search API で新規・更新リポジトリ
-(`topic:claude-skill` / `topic:agent-skills` / `topic:claude-code` / `topic:ai-code-review` / `topic:code-review`、および直近30日以内に作成されたもの)
+(`topic:claude-skill` / `topic:agent-skills` / `topic:claude-code` / `topic:codex-cli` / `topic:local-llm` / `topic:ai-code-review` / `topic:code-review` など)
 を取得しています。
 
-レポートは4セクション構成です。
+レポートは6セクション構成です。
 
-- **ニュース・トレンド** — 上記ソースで話題になった投稿・動画・記事。システム開発(実装、開発者ツール、インフラ、テスト、CI/CD、エージェント・MCP フレームワークなど)に関わるものを対象とし、各項目に日本語の要約を付けています
-- **AIコードレビュー・コーディング規約** — Greptile / CodeRabbit / Qodo などの AI コードレビュー製品と、AGENTS.md のような自然言語ルール・lint・CI による規約の自動執行に関する動向。製品比較やバグ検出率のベンチマーク、導入事例、AIレビューと人間レビューの役割分担など
-- **新規・トレンド GitHub リポジトリ** — (1) プログラミング(言語・フレームワークの実装支援、コード生成/レビュー、Web の UI・デザイン実装) (2) クラウドインフラ構築と運用(IaC、CI/CD、監視) (3) AI駆動開発の方法論(スペック駆動開発、マルチエージェント設計、コンテキストエンジニアリングなど) の3分野に該当するものだけを掲載。スキル配布・管理ツール、メモ/知識管理、学習教材、画像・資料生成などは除外しています
-- **コミュニティの主要コメント** — Reddit スレッドで反応の大きかったコメント(upvote 順)の翻訳
+- **Claude × Codex 併用事例・テクニック** — 片方のエージェントにもう片方のレビューをさせる、役割分担、Codex を MCP サーバーとして Claude Code から呼ぶ、ルールファイルの共通化など、両方を1つのワークフローで使う事例
+- **Codex の知見** — Codex CLI / IDE 拡張 / Codex cloud の使い方、設定、ワークフロー、モデル・機能の更新とその評価
+- **ローカルLLM 活用事例・テクニック** — Ollama / llama.cpp / vLLM などでの利用構成、企業のオンプレ導入事例、ハードウェア・量子化・チューニング、コーディング用途
+- **ニュース・トレンド** — Claude Code agent skills 周辺で話題になった投稿・動画・記事。システム開発に関わるものを対象としています
+- **AIコードレビュー・コーディング規約** — Greptile / CodeRabbit / Qodo などの AI コードレビュー製品と、AGENTS.md・lint・CI による規約の自動執行に関する動向
+- **新規・トレンド GitHub リポジトリ** — (1) プログラミング (2) クラウドインフラ構築と運用 (3) AI駆動開発の方法論 (4) ローカルLLM の4分野に該当するものだけを掲載。スキル配布・管理ツール、メモ/知識管理、学習教材、画像・資料生成などは除外しています
+
+各トピックの末尾には、Reddit スレッドで反応の大きかったコメントの翻訳を付けています。同じ記事が複数のトピックに引っかかった場合は、最初のセクションにだけ載せています。
 
 ## レポート一覧
 
+- [2026-10-18](reports/20261018.md)
 - [2026-10-15](reports/20261015.md)
 - [2026-10-14](reports/20261014.md)
 - [2026-10-13](reports/20261013.md)
